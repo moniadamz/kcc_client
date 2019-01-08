@@ -1,0 +1,4 @@
+<h1 class="d-flex ml-auto p-2">{{ listName }}</h1>
+<div *ngFor="let movie of moviesList">
+  <app-movie [movie]="movie"></app-movie>
+</div>
